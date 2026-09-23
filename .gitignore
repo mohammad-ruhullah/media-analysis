@@ -1,0 +1,52 @@
+# env / secrets
+.env
+.env.local
+.env*.local
+*.pem
+
+# node
+node_modules/
+web/.next/
+web/out/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# media storage (never commit media)
+storage/
+recovery/out/
+pipeline/out/
+pipeline/cache/
+*.iso
+*.mpg
+*.mpeg
+*.vob
+*.dat
+*.mp4
+*.mkv
+*.avi
+*.wav
+*.flac
+*.jpg
+*.jpeg
+*.png
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# vercel
+.vercel
+
+# misc
+*.log
+.idea/
+.vscode/

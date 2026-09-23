@@ -1,0 +1,16 @@
+{
+  "name": "media-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Recover CDs, analyze documentaries, generate social clip notes. Free/cloud-only stack.",
+  "scripts": {
+    "db:migrate": "node db/migrate.mjs",
+    "db:reset-notes": "node db/migrate.mjs --notes"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
+  }
+}
